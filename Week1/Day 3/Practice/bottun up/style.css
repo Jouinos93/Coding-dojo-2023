@@ -1,0 +1,30 @@
+.button_search{
+    
+    height: 30px;
+    width: 100 px;
+    background-color: rgb(225, 250, 241);
+    color:rgb(8, 180, 180);
+margin-bottom: 10px;
+border-radius: 20px;
+border: 2px solid rgb(20, 176, 248);
+
+
+
+}
+.button_add{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(4, 173, 123);
+    color: white;
+    border-color: rgb(4,173,123);
+    border-radius: 50px;
+
+}
+.button_Account{
+    width: 150px;
+    background-color:rgb(8, 8, 177);
+    color: aliceblue;
+    border: 2px solid black;
+    box-shadow: 3px 3px noir;
+}
