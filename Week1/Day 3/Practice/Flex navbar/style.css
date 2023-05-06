@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: rgb(70, 71, 71);
+    width:auto;
+    height:10%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav-links{
+    width:50%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav-title{
+    font-weight:100;
+    color: white;
+    display: block;
+    margin: 5px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn{
+    background-color: rgb(88, 164, 226);
+    box-shadow: 50px black;
+  
+
+
+}
