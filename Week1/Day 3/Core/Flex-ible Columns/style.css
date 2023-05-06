@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    display: flex;
+}
+.col1{
+    flex: 1;
+padding: 30px;
+margin: 10px;
+background-color: rgb(82, 158, 177);
+}
+
+.col{
+    flex: 25%;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(82, 158, 177);
+}
+.col-2{
+    flex: 50%;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(82, 158, 177);
+
+}
+#col-2{
+    flex: 40%;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(82, 158, 177);
+}
+.col-3{
+    flex: 60%;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgb(82, 158, 177);
+}
