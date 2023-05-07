@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#box{
+    width: auto;
+    height: 80px;
+    background-color: rgb(84, 84, 216)}
+#image1{
+position:absolute;
+top: 5%;
+margin-left: 20px;
+}
+h1{
+    position:relative;
+    top: 30px;
+    margin: 20px;
+}
+.marker{
+
+}
+.location{
+    display: flex;
+align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 20px;
+justify-content: flex-start;
+   
+}
+p{
+    margin: 20px;
+    display: inline-block;
+    width: 300px
+}
+.profile{
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    
+}
