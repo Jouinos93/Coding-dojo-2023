@@ -21,11 +21,14 @@ h1{
 }
 .location{
     display: flex;
-align-items: flex-start;
-    margin-top: 40px;
-    margin-left: 20px;
-justify-content: flex-start;
-   
+align-items: center;
+margin:20px 0px;
+
+}
+#im{
+    width: 20px;
+    height: 30px;
+    padding: 10px;
 }
 p{
     margin: 20px;
