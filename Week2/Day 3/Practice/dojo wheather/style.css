@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+}
+body{
+    font-family:
+}
+.top{
+    background-color: rgb(170, 169, 169);
+    color: white;
+}
+.container, .nav{
+    width: 1000px;
+    height: 0 auto;
+}
+.nav{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
