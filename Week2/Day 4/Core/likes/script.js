@@ -1,7 +1,8 @@
-var like=document.querySelector("button")
+var like=3
+increase=document.querySelector("button")
 
 function increase(){
-    for (i=1;i>=like;i++)
-    
+
+    like.innerHTML=i
 
 }

@@ -11,7 +11,7 @@ justify-content:center;
 
 
 }
-.box1{
+.box{
     margin-top: 100px;
     border: solid 2px black;
     width: 380px;
@@ -20,6 +20,12 @@ justify-content:center;
     justify-content: space-between;
     
 }
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .left{
     margin: 10px 10px;
 }
