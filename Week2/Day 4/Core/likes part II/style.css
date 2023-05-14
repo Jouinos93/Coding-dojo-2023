@@ -13,7 +13,7 @@
 .container{
     display: flex;
     justify-content:space-between;
-    align-items: center;
+    justify-items: center;
 }
 .title{
     background-color: rgb(0, 0, 0);
@@ -22,14 +22,14 @@
 .title1{
     text-align: center;
     padding: 20px 50px;
-  
+
 }
 .left{
-    
+    padding-left: 40px;
     display: flex;
     border: solid 1px black;
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 274px;
     flex-direction: column;
    
 }
@@ -40,22 +40,15 @@
 }
 .user1{
     border: solid 1px black;
-    width: 400px;
+    width: 500px;
     height: 150px;
     display: flex ;
     flex-direction: column;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.user2{
-    border: solid 1px black;
-    width: 400px;
-    height: 150px;
-}
-.user3{
-    border: solid 1px black;
-    width: 400px;
-    height: 150px;
-}
+
 .h1{
     display: flex;
     align-items: baseline;
@@ -69,6 +62,8 @@ p{
     background-color: rgb(221, 202, 29);
 
     box-shadow: 5px 5px black;
+    width:100px;
+    height: 50px;
 }
 
 .topic{
