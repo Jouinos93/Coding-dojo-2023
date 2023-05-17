@@ -6,7 +6,7 @@ class User:
         self.age=age
         self.is_rewards_member=False
         self.gold_card_points=0
-
+        
     def display_info(self):
         print(f"First Name: {self.first_name}")
         print(f"Last Name: {self.last_name}")
