@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+
+</head>
+<body>
+   
+    <div class="nav-bar">
+        <div class="nav">
+            <h1>Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <button class="btn">Sign Out</button>
+    </div>
+
+   
+    <div class="main-content">
+        <div class="left-side-bar">
+           
+            <div class="main-profile">
+                <header class="profile-header">
+                
+                    <div class="avatar"></div> 
+                </header>
+                <div class="profile-body">
+                    
+                    <h1 class="name">Jane Doe</h1>
+                    <div class="location">
+                        <img src="./images/map-marker.png" alt="pin">
+                        <p>Seattle</p>
+                    </div>
+                    <div class="info">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadow and the Internet!</p>
+                    </div>
+                    <div class="control">
+                        <img src="./images/gear.png" alt="gear">
+                        <a href="#" onclick="change()">edit proflie</a>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="education">
+                <header class="education-header">
+                    <h3>Education</h3>
+                </header>
+                <div class="education-body">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h4>
+                    
+                    <p class="date">Dec 2019 - Mar 2020</p> 
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-side-bar">
+       
+            <div class="connection-request">
+                <header class="request-header">
+                    <p id="request-count">2</p>
+                    <h3>Connection Requests</h3>
+                </header>
+                <div class="request-body">
+                    <div class="request">
+                        <div class="request-profle">
+                            <img id="other-avatar" src="./images/todd-s.jpg" alt="Todd E">
+                            <p>Todd E</p>
+                        </div>
+                        <div class="request-decision">
+                            <img id="accept" src="./images/accept-circle.png" alt="Accept">
+                            <img id="close" src="./images/close-circle.png"> 
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="request-profle">
+                            <img id="other-avatar" src="./images/phil-s.jpg" alt="Phil K">
+                            <p>Phile K</p>
+                        </div>
+                        <div class="request-decision">
+                            <img id="accept" src="./images/accept-circle.png" alt="Accept">
+                            <img id="close" src="./images/close-circle.png" alt="Close">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+            <div class="your-connections">
+                <header class="connection-header">
+                    <p id="connection-count">500+</p>
+                    <h3>Your Connections</h3>
+                </header>
+                <div class="connection-body">
+                    <div class="connection">
+                        <img id="other-avatar" src="./images/adrien-s.jpg" alt="Adrien D">
+                        <p>Adrien D </p>                 
+                    </div>
+                    <div class="connection">
+                        <img id="other-avatar" src="./images/anne-s.jpg" alt="Anne J">
+                        <p>Anne J</p>                
+                    </div>
+                    <div class="connection">
+                        <img id="other-avatar" src="./images/alayne-s.jpg" alt="Alayne T">
+                        <p>Alayne T </p>             
+                    </div>
+                    <div class="connection">
+                        <img id="other-avatar" src="./images/arry-s.jpg" alt="Arry ">
+                        <p>Arry Y</p>      
+                    </div>
+                </div>
+                <footer>
+                    <a href="#">View More</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
