@@ -20,7 +20,7 @@ class BankAccount:
         if self.balance >= 0:
             self.balance += self.balance * self.interest_rate
 
-# Create two accounts
+# Create 2 accounts
 account1 = BankAccount()
 account2 = BankAccount()
 
