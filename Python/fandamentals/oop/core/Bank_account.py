@@ -26,7 +26,7 @@ class BankAccount:
 
 # Create 2 accounts
 
- Account 1 
+ #Account 1 
 account1=BankAccount(0.02,500)
 account1.deposit(100).deposit(10).deposit(20).display_account_info()
 account1.withdraw(10).display_account_info()
