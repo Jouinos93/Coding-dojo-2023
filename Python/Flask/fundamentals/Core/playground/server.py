@@ -1,13 +1,16 @@
-from flask import Flask, render_template
-app=Flask (__name__)
-
-@app.route('/play/<int:number>')
-def box(number):
-    return render_template("play.html",number=number)
-@app.route('/test/<int:num>')
-def tester(num):
-    return render_template("test.html",num=num)
+from flask import Flask ,render_template   
+# Import Flask to allow us to create our app
+app = Flask(__name__)    # Create a new instance of the Flask class called "app"
 
 
-if __name__=="__main__":
-    app.run(debug=True) 
+@app.route('/')          # The "@" decorator associates this route with the function immediately following
+def play():
+    return render_template('play.html')  # Return the string 'Hello World!' as a response
+
+
+@app.route('/play/<int:nums>/<string:color>')
+def index(nums, color):
+    return render_template('play.html' , num=nums, color=color)
+
+if __name__=="__name__":
+    app.run (debug=True)
